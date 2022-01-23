@@ -1,0 +1,37 @@
+@import url('./style.css');
+.header_post{
+    min-height: 180px;
+    text-align: center;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_post_content{
+    background-color: rgba(0, 0, 255, 0.4);
+}
+.header_post h2{
+    margin: auto;
+    font-size: 3em;
+    font-weight: 600;
+    padding: 80px 60px;
+    color: var(--yellow);
+    text-shadow: 2px 2px 6px #000;
+}
+
+.post_page{
+    margin: 40px auto;
+    padding: 10px 0;
+}
+.post_page_author{
+    display: block;
+    margin: 10px;
+}
+.post_page_author p{
+    text-align: center;
+}
+.content_post{
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px 0px;
+}
